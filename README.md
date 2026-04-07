@@ -190,3 +190,9 @@ Compiled for **Cyclone V 5CSEMA4U23C6** with Quartus Prime 18.1.0:
 The top-level hardware design (`weather_station_I2C.v`) and firmware application (`weather_station_firmware.c`) are original work and are released for educational and personal use.
 
 The FPGA IP cores and BSP files under `software/code_bsp/` and the Platform Designer-generated files are produced by Intel Quartus Prime and Nios II SBT and are subject to the Intel FPGA IP License Agreement and the Altera HAL License. See the license headers within those files for details.
+
+---
+
+## Academic Context
+
+The project was completed as part of academic coursework at Hochschule Anhalt (Anhalt University of Applied Sciences) in 2024.
