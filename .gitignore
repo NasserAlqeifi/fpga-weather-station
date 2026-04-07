@@ -1,0 +1,79 @@
+# ============================================================
+# Quartus Prime compilation databases and build artifacts
+# ============================================================
+weather_station/db/
+weather_station/incremental_db/
+
+# ============================================================
+# Compiled output files (bitstreams, programming files)
+# ============================================================
+weather_station/output_files/*.sof
+weather_station/output_files/*.pof
+weather_station/output_files/*.rbf
+weather_station/output_files/*.jic
+weather_station/output_files/*.ttf
+weather_station/output_files/*.ekp
+weather_station/output_files/*.rpd
+weather_station/output_files/*.jam
+weather_station/output_files/*.jam.rpt
+weather_station/output_files/*.sld
+weather_station/output_files/*.done
+
+# Keep text reports (.rpt, .summary, .smsg, .pin, .jdi, .cdf)
+# so build results are visible without re-running compilation.
+
+# ============================================================
+# Quartus editor and workspace state
+# ============================================================
+weather_station/.qsys_edit/
+weather_station/*.qws
+
+# ============================================================
+# Backup files created by Quartus
+# ============================================================
+*.bak
+*.orig
+
+# ============================================================
+# Nios II SBT / Eclipse workspace metadata
+# ============================================================
+weather_station/software/.metadata/
+
+# ============================================================
+# Eclipse / CDT build artifacts inside software projects
+# ============================================================
+weather_station/software/code/Debug/
+weather_station/software/code/Release/
+weather_station/software/code_bsp/Debug/
+weather_station/software/code_bsp/Release/
+
+# ============================================================
+# Project archive (the zip is redundant once on GitHub)
+# ============================================================
+weather_station.zip
+
+# ============================================================
+# OS-generated files
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================================================
+# Nios II compiled binaries and build artifacts
+# ============================================================
+weather_station/software/code/*.elf
+weather_station/software/code/*.map
+weather_station/software/code/*.objdump
+weather_station/software/code/obj/
+weather_station/software/code/system/
+weather_station/software/code_bsp/obj/
+weather_station/software/code_bsp/libhal_bsp.a
+weather_station/software/RemoteSystemsTempFiles/
+
+# ============================================================
+# IDE and tool session folders
+# ============================================================
+.claude/
+.vscode/
+.idea/
